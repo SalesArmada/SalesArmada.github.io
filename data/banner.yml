@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Sales Armada"
+subtitle: |
+  We’re building an <strong>Enterprise Access Marketplace</strong>
+content : |
+  A platform connecting startup clients to fractional enterprise salespeople for them to augment their sales teams and target specific Fortune 1000 logos.
+  
+  You can customize its <span class="demo-controls">appearance with a number of modifiers</span>
+button:
+  label : "JOIN THE BETA"
+  link : "https://docs.google.com/forms/d/e/1FAIpQLSf5P63qrWBWEEqafYTj9RRK49p0WItDWoBOEsSHYIsL0tKIlw/viewform?usp=sf_link"
+image : "images/modern_navy_armada.jpeg"
+
