@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "Sales Armada"
 theme = "hugo-story"
 
 baseURL = "https://SalesArmada.github.io"
