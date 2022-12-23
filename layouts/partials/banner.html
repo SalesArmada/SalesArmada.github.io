@@ -1,0 +1,20 @@
+<!-- Banner -->
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .aecontent }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .aebutton }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button primary wide smooth-scroll-middle">{{ .label }}</a></li>
+        </ul>{{ end }}
+        {{ with .clientcontent }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .clientbutton }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button primary wide smooth-scroll-middle">{{ .label }}</a></li>
+        </ul>{{ end }}
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5P63qrWBWEEqafYTj9RRK49p0WItDWoBOEsSHYIsL0tKIlw/viewform?usp=sf_link">Join our email list</a>
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{.}}" alt="Hugo Story" />
+    </div>{{end}}
+</section>
