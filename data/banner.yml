@@ -2,13 +2,27 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Sales Armada"
 subtitle: |
-  We’re building an <strong>Enterprise Access Marketplace</strong>
+  Coming soon: an <strong>Enterprise Access Marketplace</strong>
 content : |
-  A platform connecting startup clients to fractional enterprise salespeople for them to augment their sales teams and target specific Fortune 1000 logos.
   
-  You can customize its <span class="demo-controls">appearance with a number of modifiers</span>
-button:
-  label : "JOIN THE BETA"
-  link : "https://docs.google.com/forms/d/e/1FAIpQLSf5P63qrWBWEEqafYTj9RRK49p0WItDWoBOEsSHYIsL0tKIlw/viewform?usp=sf_link"
-image : "images/modern_navy_armada.jpeg"
+#  You can customize its <span class="demo-controls">appearance with a number of modifiers</span>
+clientcontent : 
+  "<strong>For startups: </strong>Accelerate enterprise go-to-market by hiring AEs with experience selling into the exact targets of your choice. 
+   Get more bang for your buck through fractionalization."
 
+clientbutton:
+  label : "AUGMENT YOUR SALES TEAM"
+  link : "https://docs.google.com/forms/d/e/1FAIpQLSfh9OewG0GTEMQOok2h6X52jg35GYZMlWT9DI9-s0JKAKR8sA/viewform?usp=sf_link"
+
+aecontent :
+  "<strong>For AEs: </strong>Better leverage your network and experience by selling into all of your warm leads. Work the number of hours you want from 20% to 200%. Get exposed to a few startups before committing to one."
+
+aebutton:
+  label : "LEVERAGE YOUR NETWORK"
+  link : "https://docs.google.com/forms/d/e/1FAIpQLSef8osqSXeSc1V1wVzpkCcYOd34wSArdtN7uRyi2yrljYlxoQ/viewform?usp=sf_link"
+
+image : "images/sailboat.jpeg"
+
+emailbutton:
+  label : "JOIN OUR EMAIL LIST"
+  link : "https://docs.google.com/forms/d/e/1FAIpQLSef8osqSXeSc1V1wVzpkCcYOd34wSArdtN7uRyi2yrljYlxoQ/viewform?usp=sf_link"
